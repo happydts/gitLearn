@@ -1,0 +1,6 @@
+[remote "github"]
+	url = git@github.com:happydts/javaReview.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "gitee"]
+	url = git@gitee.com:happydts/javaReview.git
+	fetch = +refs/heads/*:refs/remotes/gitee/*
