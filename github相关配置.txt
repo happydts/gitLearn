@@ -4,3 +4,7 @@
 [remote "gitee"]
 	url = git@gitee.com:happydts/javaReview.git
 	fetch = +refs/heads/*:refs/remotes/gitee/*
+
+git add --all
+git commit -m ''
+git push  master
