@@ -2,6 +2,14 @@
 
 感谢[廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/896043488029600)
 
+## 使用小感悟
+
++ 如果是idea这些工具创建项目的话并且把这些上传到github的话，最好先把.gitignore先写好
+
++ 如果是之前没注意的话，会吧.idea下面的workspace.xml文件上传到github上去，这样的每次同步代码的话就会很麻烦，每次这个文件也会发生改变
++ 但是也没关系，git rm -r --cache .idea ,再上传给服务器就没问题了
++ 如果是两台电脑同步工作的话，git push 的发现远程库的提交比你现在的版本优先看几个版本的话，先从远程库拉取下来，解决冲突，在git add ，git commit ，在拉取之前也是要先git add ,git commit 的.
+
 ## git 基本操作
 
 ### 基本命令
